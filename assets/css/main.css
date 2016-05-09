@@ -2286,10 +2286,11 @@
 			margin: 0 0 1em 0;
 			width: 100%;
 		}
+
 		.button.title {
 			display: block;
-			margin: 0 0 1em 42.5%;
-			width: 15%;
+			margin: 0 0 1em 40%;
+			width: 20%;
 		}
 
 		input[type="submit"].small,
@@ -3484,6 +3485,28 @@
 			width: 16em;
 			z-index: 1;
 		}
+		#banner havemore {
+			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease;
+			border: none;
+			bottom: 0;
+			color: inherit;
+			font-size: 0.8em;
+			height: 35%;
+			left: 50%;
+			letter-spacing: 0.225em;
+			margin-left: -10em;
+			opacity: 1;
+			outline: 0;
+			padding-left: 0.225em;
+			position: absolute;
+			text-align: center;
+			text-transform: uppercase;
+			width: 16em;
+			z-index: 1;
+		}
 
 			#banner .more:after {
 				background-image: url("images/arrow.svg");
@@ -3544,6 +3567,13 @@
 					display: none;
 				}
 
+		}
+			#banner .inner .actions {
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			width: 30%;
 		}
 
 	body.is-loading #banner h2 {
