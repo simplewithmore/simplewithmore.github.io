@@ -3406,6 +3406,15 @@
 		text-align: center;
 	}
 
+	#banner2 .inner .actions {
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			width: 30%;
+		}
+
+
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3479,10 +3488,6 @@
 			#banner p a {
 				color: inherit;
 			}
-		#banner m {
-			letter-spacing: 2.25em;
-			text-transform: uppercase;
-		}
 
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
