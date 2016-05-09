@@ -2286,6 +2286,11 @@
 			margin: 0 0 1em 0;
 			width: 100%;
 		}
+		.button.title {
+			display: block;
+			margin: 0 0 1em 42.5%;
+			width: 15%;
+		}
 
 		input[type="submit"].small,
 		input[type="reset"].small,
