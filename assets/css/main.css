@@ -2289,8 +2289,8 @@
 
 		.button.title {
 			display: block;
-			margin: 0 0 1em 40%;
-			width: 20%;
+			margin: 0 0 1em 115%;
+			width: 100%;
 		}
 
 		input[type="submit"].small,
@@ -3454,6 +3454,10 @@
 			#banner p a {
 				color: inherit;
 			}
+		#banner m {
+			letter-spacing: 2.25em;
+			text-transform: uppercase;
+		}
 
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
@@ -3476,28 +3480,6 @@
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
-			opacity: 1;
-			outline: 0;
-			padding-left: 0.225em;
-			position: absolute;
-			text-align: center;
-			text-transform: uppercase;
-			width: 16em;
-			z-index: 1;
-		}
-		#banner havemore {
-			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
-			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
-			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
-			transition: transform 0.25s ease, opacity 0.25s ease;
-			border: none;
-			bottom: 0;
-			color: inherit;
-			font-size: 0.8em;
-			height: 35%;
-			left: 50%;
-			letter-spacing: 0.225em;
-			margin-left: -10em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
