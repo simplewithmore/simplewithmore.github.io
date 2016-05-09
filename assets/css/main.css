@@ -2962,6 +2962,11 @@
 			background-color: transparent;
 		}
 
+		.wrapper.styleback {
+			background:white; 
+  			background-color: rgba(255, 255, 255, 0); 
+		}
+
 		.wrapper.style5 {
 			background-color: #ffffff;
 			color: #4E4852;
