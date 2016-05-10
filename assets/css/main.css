@@ -2287,12 +2287,6 @@
 			width: 100%;
 		}
 
-		.button.title {
-			display: block;
-			margin: 0 0 1em 115%;
-			width: 100%;
-		}
-
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
